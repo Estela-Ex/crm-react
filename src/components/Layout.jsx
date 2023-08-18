@@ -24,7 +24,7 @@ export default function Layout() {
           </Link>
         </nav>
       </aside>
-      <main className="md:w-3/4 p:10 md:h-screen overflow-scroll">
+      <main className="md:w-3/4 p-10 md:h-screen overflow-scroll">
         <Outlet />
       </main>
     </div>
