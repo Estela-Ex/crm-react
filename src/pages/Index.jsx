@@ -10,7 +10,7 @@ export function loader() {
 export default function Index() {
   const clientes = useLoaderData();
 
-  //Error Boundaries
+  // Error Boundaries
   return (
     <>
       <h1 className="font-black text-4xl text-blue-900">Clientes</h1>

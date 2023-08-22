@@ -1,13 +1,16 @@
 import { useNavigate, Form, useActionData } from "react-router-dom";
 import Formulario from "../components/Formulario";
 import Error from "../components/Error";
+import { agregarCliente } from "../data/clientes";
 
 export async function action({ request }) {
   const formData = await request.formData()
   const datos = Object.fromEntries(formData)
 
   const email = formData.get("email")
-
+   
+  
+   
   //Validación//
   const errores = []
   if (Object.values(datos).includes("")) {
@@ -25,7 +28,9 @@ export async function action({ request }) {
   if (Object.keys(errores).length) {
     return errores
   }
-
+  agregarCliente(datos)
+  
+  return {}
 }
 export default function NuevoCliente() {
   const errores = useActionData()
@@ -40,7 +45,7 @@ export default function NuevoCliente() {
       <div className="flex justify-end">
         <button
           className="bg-blue-800 text-white px-3 py-1 font-bold uppercase"
-          onClick={() => navigate(-1)}
+          onClick={() => navigate("/")}
         >
           volver
         </button>
@@ -51,6 +56,7 @@ export default function NuevoCliente() {
         )}
         <Form
           method="post"
+
           noValidate
         >
           <Formulario />
