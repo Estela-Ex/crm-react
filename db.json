@@ -1,47 +1,36 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Juan",
-      "telefono": 102013313,
-      "email": "juan@juan.com",
-      "empresa": "Codigo Con Juan"
-    },
-    {
-      "id": 2,
       "nombre": "Karen",
-      "telefono": 138198313,
+      "empresa": "Codigo Con Juan",
       "email": "karen@juan.com",
-      "empresa": "Codigo Con Juan"
-    },
-    {
-      "id": 3,
-      "nombre": "Josue",
-      "telefono": 31983913,
-      "email": "josue@juan.com",
-      "empresa": "Codigo Con Juan"
-    },
-    {
-      "id": 4,
-      "nombre": "Miguel",
-      "telefono": 319381983,
-      "email": "miguel@juan.com",
-      "empresa": "Codigo Con Juan"
-    },
-    {
-      "id": 5,
-      "nombre": "Pedro",
-      "telefono": 1398198938,
-      "email": "pedro@juan.com",
-      "empresa": "Codigo Con Juan"
+      "telefono": "138198313",
+      "notas": "necesita un crm nuevo",
+      "id": 2
     },
     {
       "nombre": "Jose Maria",
-      "empresa": "guakamiki",
-      "email": "correo@correo.com",
-      "telefono": "650050505",
-      "notas": "cliente creado correctamente",
+      "empresa": "Ikea",
+      "email": "josemaria@gmail.com",
+      "telefono": "625148596",
+      "notas": "Cliente que demanda su paquete",
       "id": 6
+    },
+    {
+      "nombre": "Estela",
+      "empresa": "Full stack",
+      "email": "estela@gmail.com",
+      "telefono": "650050505",
+      "notas": "Aprendiendo programación",
+      "id": 7
+    },
+    {
+      "nombre": "Estela",
+      "empresa": "Ikea",
+      "email": "estela@gmail.com",
+      "telefono": "650141414",
+      "notas": "Aprendiendo a programar",
+      "id": 8
     }
   ]
 }
