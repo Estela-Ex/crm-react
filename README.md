@@ -1,6 +1,8 @@
-# React + Vite
+# CRM CLIENTES
+##Para clonar:
 
-npm run json-server
-npm run dev
+###npm install
+###npm run json-server
+###npm run dev
 
 
